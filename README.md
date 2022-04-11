@@ -14,3 +14,9 @@ docker-compose up -d
 npx ts-node index.ts
 
 ```
+
+## Prisma Studio
+
+```bash
+npx prisma studio
+```
