@@ -7,3 +7,10 @@ Starter kit for quick start with Typescript and MongoDB locally.
 ```bash
 docker-compose up -d
 ```
+
+## Run sample code
+
+```bash
+npx ts-node index.ts
+
+```
