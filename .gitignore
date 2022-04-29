@@ -1,4 +1,5 @@
 node_modules
+.serverless
 # Keep environment variables out of version control
 
 yarn-error.log

@@ -3,6 +3,7 @@
 
 generator client {
   provider = "prisma-client-js"
+  binaryTargets = ["native", "rhel-openssl-1.0.x"]
 }
 
 datasource db {
@@ -36,4 +37,12 @@ model User {
   email String @unique
   name String?
   posts Post[]
+  profile Profile?
+}
+
+model Profile {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  bio    String?
+  userId String     @unique  // relation scalar field
+  user   User    @relation(fields: [userId], references: [id]) // renamed from `User` -> `user`
 }
