@@ -6,7 +6,6 @@ plugins:
 
 provider:
   name: aws
-  deploymentMethod: direct # comment it, if you want to deploy with serverless.com services (additional changes and tools)
   region: us-east-1
   runtime: nodejs14.x
 
