@@ -41,6 +41,10 @@ and deploy to AWS Lamdba + MongoDB Shared Cloud using GitHub Actions.
 npx lerna bootstrap
 ```
 
+It will generate Prisma Client automatically with npm postinstall script.
+When you modify your schema and want to test locally, then follow steps in
+[Generate Prisma Client](#generate-prisma-client)
+
 ## Run project locally with MongoDB in Docker Compose
 
 ```bash
@@ -49,8 +53,22 @@ docker-compose up -d
 
 ## Generate Prisma Client
 
+With Lerna:
+
+```bash
+npx lerna run generate-prisma-client
+```
+
+Or from inside **packages/prisma-client** package you can use it directly:
+
 ```bash
 npx prisma generate
+```
+
+or
+
+```bash
+npm run generate-prisma-client
 ```
 
 ## Run sample code

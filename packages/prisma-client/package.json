@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npx prisma generate",
+    "postinstall": "prisma generate",
+    "generate-prisma-client": "prisma generate",
     "deploy": "cross-env NODE_ENV=production && create-env --env-file .env.local --env-prefix PROD_ && serverless deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
