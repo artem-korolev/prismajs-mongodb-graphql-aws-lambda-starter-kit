@@ -98,3 +98,19 @@ npx serverless deploy
 ```bash
 npx serverless
 ```
+
+## Demo
+
+Checkout these URLs
+
+endpoints:
+  - GET - https://rb7zk6fsce.execute-api.us-east-1.amazonaws.com/dev/
+
+  - GET - https://rb7zk6fsce.execute-api.us-east-1.amazonaws.com/dev/seed
+
+  - GET - https://rb7zk6fsce.execute-api.us-east-1.amazonaws.com/dev/users
+
+  - POST - https://rb7zk6fsce.execute-api.us-east-1.amazonaws.com/dev/users
+
+  - GET - https://rb7zk6fsce.execute-api.us-east-1.amazonaws.com/dev/posts
+\
