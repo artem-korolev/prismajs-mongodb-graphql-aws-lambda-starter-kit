@@ -1,9 +1,44 @@
-# PrismaJS with TypeScript + MongoDB
+# PrismaJS with TypeScript + MongoDB + Lerna + AWS Lambda + Serverless
 
-Starter kit for quick start with Typescript and MongoDB locally.
+Starter kit for quick start with Typescript, Lerna, GraphQL and MongoDB locally
+and deploy to AWS Lamdba + MongoDB Shared Cloud using GitHub Actions.
+
+## Technologies used
+
+- Prisma - Next-generation Node.js and TypeScript ORM with GraphQL interface
+  
+  [https://www.prisma.io/](https://www.prisma.io/)
+
+- MongoDB - JSON document database
+  
+  [https://www.mongodb.com/](https://www.mongodb.com/)
+
+- Typescript - JavaScript with syntax for types
+  
+  [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
+
+- Lerna - A tool for managing JavaScript projects with multiple packages
+
+  [https://lerna.js.org/](https://lerna.js.org/)
+
+- GraphQL - query language for APIs and a runtime for fulfilling those queries with your existing data
+  
+  [https://graphql.org/](https://graphql.org/)
+
+- Docker Compose - tool for defining and running multi-container Docker
+  applications. **Its used in this project to run MongoDB database in dev environment locally. Prisma Client requires Mongo to run in replica
+  mode, so standalone MondoDB Commuynity Server is not enough**
+
+- GitHub Actions - makes it easy to automate all your software workflows,
+  now with world-class CI/CD. Build, test, and deploy your code right from
+  GitHub
+
+  [https://github.com/features/actions](https://github.com/features/actions)
+
+## Bootstrap lerna environment
 
 ```bash
-npm install
+npx lerna bootstrap
 ```
 
 ## Run project locally with MongoDB in Docker Compose
