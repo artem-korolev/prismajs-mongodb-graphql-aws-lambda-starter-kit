@@ -27,7 +27,6 @@ jobs:
           cache: "npm"
       - run: git config --global user.email "artkor@live.ru"
       - run: git config --global user.name "GitHub Actions"
-      - run: npx serverless config credentials --provider aws --key ${{ secrets.PROD_AWS_ACCESS_KEY_ID }} --secret ${{ secrets.PROD_AWS_SECRET_ACCESS_KEY }}
       - run: npm ci
       - run: npx lerna bootstrap
       - run: npx lerna run build
@@ -36,5 +35,8 @@ jobs:
     env:
       # GitHub access to repo
       GH_TOKEN: ${{secrets.SECRET_GITHUB_TOKEN}}
+      # AWS access keys
+      AWS_ACCESS_KEY_ID: ${{secrets.PROD_AWS_ACCESS_KEY_ID}}
+      AWS_SECRET_ACCESS_KEY: ${{secrets.PROD_AWS_SECRET_ACCESS_KEY}}
       # Application environment specifig secrets
       PROD_DATABASE_URL: ${{secrets.PROD_DATABASE_URL}}
