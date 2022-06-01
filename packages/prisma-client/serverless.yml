@@ -1,4 +1,4 @@
-org: prorokxp
+#org: prorokxp
 app: prisma-aws-lambda-example
 service: prisma-aws-lambda-example
 plugins:
