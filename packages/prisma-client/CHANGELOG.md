@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.15 (2022-06-02)
+
+
+### Bug Fixes
+
+* removing reduntant file ([212fa71](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/212fa7136ae0dc06780a8f98646a3e5b92b30d0c))
+
+
+
+
+
 ## 1.1.14 (2022-06-02)
 
 **Note:** Version bump only for package prisma-client
