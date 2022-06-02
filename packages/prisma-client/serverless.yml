@@ -3,6 +3,7 @@ app: prisma-aws-lambda-example
 service: prisma-aws-lambda-example
 plugins:
   - serverless-dotenv-plugin
+  - serverless-offline
 
 provider:
   name: aws
@@ -10,36 +11,17 @@ provider:
   runtime: nodejs14.x
 
 functions:
-  status:
-    handler: handlers/status.handler
+  graphql:
+    handler: dist/server.handler
     events:
       - http:
-          method: GET
-          path: /
-  seed:
-    handler: handlers/seed.handler
-    events:
+          path: graphql
+          method: post
+          cors: true
       - http:
-          method: GET
-          path: /seed
-  getUsers:
-    handler: handlers/users.handler
-    events:
-      - http:
-          method: GET
-          path: /users
-  createUser:
-    handler: handlers/create-user.handler
-    events:
-      - http:
-          method: POST
-          path: /users
-  getPosts:
-    handler: handlers/posts.handler
-    events:
-      - http:
-          method: GET
-          path: /posts
+          path: graphql
+          method: get
+          cors: true
 
 # only include the Prisma binary required on AWS Lambda while packaging
 package:
@@ -48,3 +30,7 @@ package:
     - 'node_modules/.prisma/client/libquery_engine-rhel-*'
     - '!node_modules/prisma/libquery_engine-*'
     - '!node_modules/@prisma/engines/**'
+
+custom:
+  serverless-offline:
+    useChildProcesses: true

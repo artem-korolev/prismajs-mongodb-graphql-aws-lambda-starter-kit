@@ -56,7 +56,7 @@ docker-compose up -d
 With Lerna:
 
 ```bash
-npx lerna run generate-prisma-client
+npx lerna run prisma:generate
 ```
 
 Or from inside **packages/prisma-client** package you can use it directly:
@@ -68,7 +68,7 @@ npx prisma generate
 or
 
 ```bash
-npm run generate-prisma-client
+npm run prisma:generate
 ```
 
 ## Run sample code

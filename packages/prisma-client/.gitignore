@@ -17,6 +17,7 @@ query_engine-windows.dll.node
 
 *tmp.db
 dist/
+generated/
 
 *.tsbuildinfo
 .prisma
