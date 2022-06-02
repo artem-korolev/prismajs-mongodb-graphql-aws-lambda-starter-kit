@@ -56,7 +56,7 @@ using MongoDB in Docker and Prisma Client in serverless offline mode.
 docker-compose up -d
 ```
 
-### Run Prisma in serverless offline mode:
+### Run Prisma Client in serverless offline mode:
 
 ```bash
 npx lerna run --parallel dev
@@ -111,6 +111,8 @@ npx prisma studio
 ## Deploy to AWS Lambda
 
 I'm using GitHub Actions as CI/CD tool to deploy using Serverless Framework to AWS Lambda.
+But you can easily adjust it for any other CI/CD tool you prefere.
+Checkout **.github/workflows/node.js.yml** for details.
 
 It requires secrets to be added to project Actions configuration (Repository / Settings / Secrets / Actions):
 
