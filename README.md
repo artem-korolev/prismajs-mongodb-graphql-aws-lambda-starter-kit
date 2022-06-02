@@ -47,9 +47,28 @@ When you modify your schema and want to test locally, then follow steps in
 
 ## Run project locally with MongoDB in Docker Compose
 
+You will have a complete local development experience with debug and live reload
+using MongoDB in Docker and Prisma Client in serverless offline mode.
+
+### Start MongoDB with replica:
+
 ```bash
 docker-compose up -d
 ```
+
+### Run Prisma in serverless offline mode:
+
+```bash
+npx lerna run --parallel dev
+```
+
+or inside packages/prisma-client
+
+```bash
+npm run dev
+```
+
+GraphQL Playground: http://localhost:3000/dev/graphql
 
 ## Generate Prisma Client
 
@@ -101,16 +120,6 @@ npx serverless
 
 ## Demo
 
-Checkout these URLs
+Checkout GraphQL with Playground deployed to AWS Lambda with MongoDB Cloud Shared:
 
-endpoints:
-  - GET - https://rb7zk6fsce.execute-api.us-east-1.amazonaws.com/dev/
-
-  - GET - https://rb7zk6fsce.execute-api.us-east-1.amazonaws.com/dev/seed
-
-  - GET - https://rb7zk6fsce.execute-api.us-east-1.amazonaws.com/dev/users
-
-  - POST - https://rb7zk6fsce.execute-api.us-east-1.amazonaws.com/dev/users
-
-  - GET - https://rb7zk6fsce.execute-api.us-east-1.amazonaws.com/dev/posts
-\
+https://rb7zk6fsce.execute-api.us-east-1.amazonaws.com/dev/graphql
