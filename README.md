@@ -98,6 +98,8 @@ npx ts-node index.ts
 
 ## Prisma Studio
 
+Inside pakcages/prisma-client directory run this
+
 ```bash
 npx prisma studio
 ```
@@ -107,6 +109,28 @@ npx prisma studio
 `You will have to add the infamous 0.0.0.0/0 CIDR block to your MongoDB Atlas cluster IP Whitelist because you won’t know which IP address AWS Lambda is using to make calls to your Atlas database.`
 
 ## Deploy to AWS Lambda
+
+I'm using GitHub Actions as CI/CD tool to deploy using Serverless Framework to AWS Lambda.
+
+It requires secrets to be added to project Actions configuration (Repository / Settings / Secrets / Actions):
+
+- PROD_AWS_ACCESS_KEY_ID
+- PROD_AWS_SECRET_ACCESS_KEY
+
+  AWS security keys. [Read here](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html#cli-configure-quickstart-creds-create)
+- PROD_DATABASE_URL
+  
+  MongoDB connection string. Get it from MongoDB Cloud admin (you can use any plan)
+
+If you know what you are doing and want to deploy it manually
+(temporary staging environment, for example, or demo purposes),
+then crete **.env.local** and override DATABASE_URL with your own and run this:
+
+```bash
+npx lerna deploy
+```
+
+or inside packages/prisma-client
 
 ```bash
 npx serverless deploy
