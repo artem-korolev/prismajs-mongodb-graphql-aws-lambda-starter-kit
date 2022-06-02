@@ -98,7 +98,7 @@ npx ts-node index.ts
 
 ## Prisma Studio
 
-Inside pakcages/prisma-client directory run this
+Inside packages/prisma-client directory run this
 
 ```bash
 npx prisma studio
@@ -111,7 +111,7 @@ npx prisma studio
 ## Deploy to AWS Lambda
 
 I'm using GitHub Actions as CI/CD tool to deploy using Serverless Framework to AWS Lambda.
-But you can easily adjust it for any other CI/CD tool you prefere.
+But you can easily adjust it for any other CI/CD tool you prefer.
 Checkout **.github/workflows/node.js.yml** for details.
 
 It requires secrets to be added to project Actions configuration (Repository / Settings / Secrets / Actions):
