@@ -27,7 +27,7 @@ and deploy to AWS Lamdba + MongoDB Shared Cloud using GitHub Actions.
 
 - Docker Compose - tool for defining and running multi-container Docker
   applications. **Its used in this project to run MongoDB database in dev environment locally. Prisma Client requires Mongo to run in replica
-  mode, so standalone MondoDB Commuynity Server is not enough**
+  mode, so standalone MondoDB Community Server is not enough**
 
 - GitHub Actions - makes it easy to automate all your software workflows,
   now with world-class CI/CD. Build, test, and deploy your code right from
