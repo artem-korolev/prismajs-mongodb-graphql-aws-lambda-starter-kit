@@ -22,6 +22,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        # lerna and semantic-release requires `all_commits` and `all_tags` for proper functioning
+        with:
+          all_commits: true
+          all_tags: true
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2
         with:
