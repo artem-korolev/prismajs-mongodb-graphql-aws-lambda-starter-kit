@@ -32,7 +32,7 @@ jobs:
       - run: npm ci
       - run: npx lerna bootstrap --ignore prismajs-mongodb-aws-lambda-graphql-lerna-typescript-starter-kit
       - run: npx lerna run build
-      - run: npx lerna version --yes
+      - run: npx lerna version --yes --conventional-commits
       - run: npx lerna run deploy
     env:
       # GitHub access to repo
