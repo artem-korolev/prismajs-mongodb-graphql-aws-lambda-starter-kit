@@ -30,7 +30,7 @@ jobs:
       - run: git config --global user.email "artkor@live.ru"
       - run: git config --global user.name "GitHub Actions"
       - run: npm ci
-      - run: npx lerna bootstrap
+      - run: npx lerna bootstrap --ignore prismajs-mongodb-aws-lambda-graphql-lerna-typescript-starter-kit
       - run: npx lerna run build
       - run: npx lerna version --yes
       - run: npx lerna run deploy

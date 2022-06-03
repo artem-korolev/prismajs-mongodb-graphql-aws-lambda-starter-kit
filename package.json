@@ -1,6 +1,7 @@
 {
   "name": "prismajs-mongodb-aws-lambda-graphql-lerna-typescript-starter-kit",
   "version": "1.0.0",
+  "private":"true",
   "description": "Starter Kit for client/server app with full system development life cycle",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -8,6 +9,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "semantic-release": "^19.0.2"
+  },
+  "release": {
+    "branches": ["master"],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm"
+    ]
   }
 }
