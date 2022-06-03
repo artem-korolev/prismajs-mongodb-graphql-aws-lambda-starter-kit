@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.0.3...v1.0.4) (2022-06-03)
+
+
+### Bug Fixes
+
+* **lerna:** conventinal commits configures in lerna already ([469cad4](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/469cad4c3396664303f5a1fd632a4f8fee237d2b))
+
 ## [1.0.3](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.0.2...v1.0.3) (2022-06-03)
 
 
