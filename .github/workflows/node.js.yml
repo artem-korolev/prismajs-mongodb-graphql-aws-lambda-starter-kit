@@ -33,7 +33,7 @@ jobs:
       - run: npx lerna bootstrap
       - run: npx lerna run build
       - run: npx lerna version --yes --conventional-commits
-      - run: npx semantic-release -d
+      - run: npx semantic-release
       - run: npx lerna run deploy
     env:
       # GitHub access to repo
