@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.2 (2022-06-03)
+
+
+### Bug Fixes
+
+* **pipeline:** adding GITHUB_TOKEN ([513519c](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/513519c6047b711683055c82e47b9013d2d5d4bd))
+
+
+
+
+
 ## 1.3.1 (2022-06-03)
 
 **Note:** Version bump only for package prisma-client
