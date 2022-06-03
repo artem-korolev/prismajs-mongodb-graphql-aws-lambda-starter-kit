@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.12 (2022-06-03)
+
+
+### Bug Fixes
+
+* **lerna:** conventinal commits configures in lerna already ([469cad4](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/469cad4c3396664303f5a1fd632a4f8fee237d2b))
+
+
+
+
+
 ## 1.3.11 (2022-06-03)
 
 **Note:** Version bump only for package prisma-client
