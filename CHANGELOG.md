@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.0.5...v1.0.6) (2022-06-03)
+
+
+### Bug Fixes
+
+* **lerna:** lerna and semantic-release requires `all_commits` and `all_tags` to be set in actions/checkout@v2 plugin for proper functioning ([242941b](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/242941bab494316ac5c0c4fdcf46ad7720aeb5d6))
+
 ## [1.0.5](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.0.4...v1.0.5) (2022-06-03)
 
 
