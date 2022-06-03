@@ -37,7 +37,7 @@ jobs:
       - run: npx lerna run deploy
     env:
       # GitHub access to repo
-      GH_TOKEN: ${{secrets.secrets.REPO_TOKEN}}
+      GH_TOKEN: ${{secrets.REPO_TOKEN}}
       # AWS access keys
       AWS_ACCESS_KEY_ID: ${{secrets.PROD_AWS_ACCESS_KEY_ID}}
       AWS_SECRET_ACCESS_KEY: ${{secrets.PROD_AWS_SECRET_ACCESS_KEY}}
