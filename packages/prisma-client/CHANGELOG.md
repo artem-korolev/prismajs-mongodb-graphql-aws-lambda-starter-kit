@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.6 (2022-06-03)
+
+
+### Bug Fixes
+
+* **semantic-release:** fine tuning ([92c853d](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/92c853d4602cebbecd9478f165091e264f731db3))
+
+
+
+
+
 ## 1.3.5 (2022-06-03)
 
 **Note:** Version bump only for package prisma-client
