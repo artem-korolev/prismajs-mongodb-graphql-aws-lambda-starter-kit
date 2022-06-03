@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.13 (2022-06-03)
+
+
+### Bug Fixes
+
+* **lerna:** proper command to publish ([64677da](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/64677dac11030a370facbe2265627a3282f29396))
+
+
+
+
+
 ## 1.3.12 (2022-06-03)
 
 
