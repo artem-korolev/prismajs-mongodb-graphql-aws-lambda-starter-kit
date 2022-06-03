@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.0.6...v1.0.7) (2022-06-03)
+
+
+### Bug Fixes
+
+* **lerna:** trying to fetch all git tags and commits for proper lerna fuinction ([2a63198](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/2a6319813f64bcaa72e980b5f5f98e17fdfa55d1))
+
 ## [1.0.6](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.0.5...v1.0.6) (2022-06-03)
 
 
