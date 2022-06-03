@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.0.4...v1.0.5) (2022-06-03)
+
+
+### Bug Fixes
+
+* **lerna:** proper command to publish ([64677da](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/64677dac11030a370facbe2265627a3282f29396))
+
 ## [1.0.4](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.0.3...v1.0.4) (2022-06-03)
 
 
