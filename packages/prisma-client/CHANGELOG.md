@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.15 (2022-06-03)
+
+
+### Bug Fixes
+
+* **lerna:** lerna and semantic-release requires `all_commits` and `all_tags` to be set in actions/checkout@v2 plugin for proper functioning ([242941b](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/242941bab494316ac5c0c4fdcf46ad7720aeb5d6))
+
+
+
+
+
 ## 1.3.14 (2022-06-03)
 
 **Note:** Version bump only for package prisma-client
