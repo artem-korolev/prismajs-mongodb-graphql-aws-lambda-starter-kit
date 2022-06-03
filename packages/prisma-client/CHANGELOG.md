@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.3 (2022-06-03)
+
+
+### Bug Fixes
+
+* **semantic-release:** turn off dry-run ([c521eb8](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/c521eb8428e81430e439261af9b2d651bf0826d3))
+
+
+
+
+
 ## 1.3.2 (2022-06-03)
 
 
