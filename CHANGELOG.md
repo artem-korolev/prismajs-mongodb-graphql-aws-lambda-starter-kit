@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.0.2...v1.0.3) (2022-06-03)
+
+
+### Bug Fixes
+
+* **semantic-release:** now using git + github plugins together to achive full experience with guthub and changelog generation ([2f3bbc7](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/2f3bbc79f0f5578a696d65af185d2e820e8b7314))
+
 ## [1.0.1](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.0.0...v1.0.1) (2022-06-03)
 
 
