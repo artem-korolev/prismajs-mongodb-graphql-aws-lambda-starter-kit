@@ -1,7 +1,7 @@
 # PrismaJS with TypeScript + MongoDB + Lerna + AWS Lambda + Serverless
 
 Starter kit for quick start with Typescript, Lerna, GraphQL and MongoDB locally
-and deploy to AWS Lamdba + MongoDB Shared Cloud using GitHub Actions.
+and deploy to AWS Lambda + MongoDB Shared Cloud using GitHub Actions.
 
 ## Technologies used
 

@@ -40,5 +40,5 @@ jobs:
       # AWS access keys
       AWS_ACCESS_KEY_ID: ${{secrets.PROD_AWS_ACCESS_KEY_ID}}
       AWS_SECRET_ACCESS_KEY: ${{secrets.PROD_AWS_SECRET_ACCESS_KEY}}
-      # Application environment specifig secrets
+      # Application environment specific secrets
       PROD_DATABASE_URL: ${{secrets.PROD_DATABASE_URL}}
