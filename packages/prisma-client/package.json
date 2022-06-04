@@ -16,7 +16,8 @@
     "nexus:generate": "ts-node --transpile-only src/schema",
     "predeploy": "run-s nexus:generate",
     "deploy": "cross-env NODE_ENV=production && create-env --env-file .env.local --env-prefix PROD_ && serverless deploy",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "post-publish": "echo \"+++-----++++TESTING LERNA POST-PUBLISH SCRIPTS (PRISMA-CLIENT project)++++-----++++\""
   },
   "keywords": [],
   "author": "",

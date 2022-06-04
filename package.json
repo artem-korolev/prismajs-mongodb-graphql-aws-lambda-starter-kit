@@ -4,7 +4,8 @@
   "private": "true",
   "description": "Starter Kit for client/server app with full system development life cycle",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "post-publish": "echo \"+++-----++++TESTING LERNA POST-PUBLISH SCRIPTS (ROOT PROJECT)++++-----++++\""
   },
   "author": "",
   "license": "ISC",
