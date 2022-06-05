@@ -159,3 +159,5 @@ npx serverless
 Checkout GraphQL with Playground deployed to AWS Lambda with MongoDB Cloud Shared:
 
 https://rb7zk6fsce.execute-api.us-east-1.amazonaws.com/dev/graphql
+
+🤘💪🤣😍❤
