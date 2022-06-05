@@ -14,6 +14,15 @@
 
 * **ci/cd:** experementing with semantic-release ([cc702c1](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/cc702c18b8ad2ac373c0898a4683659d5ea272ea))
 * **readme:** testing semantic release flows to setup CI/CD in conjunction together with Lerna ([edfa596](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/edfa59618ab28a8e6a17efdd14b982e640bd749d))
+* trying to fix broken pipeline ([121451e](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/121451e1660bcb0c50cc4fa0296e8c82051ceaaa))
+
+## [1.0.9](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.0.8...v1.0.9) (2022-06-05)
+
+
+### Bug Fixes
+
+* **ci/cd:** experementing with semantic-release ([cc702c1](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/cc702c18b8ad2ac373c0898a4683659d5ea272ea))
+* **readme:** testing semantic release flows to setup CI/CD in conjunction together with Lerna ([edfa596](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/edfa59618ab28a8e6a17efdd14b982e640bd749d))
 
 ## [1.0.9](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.0.8...v1.0.9) (2022-06-05)
 
