@@ -1,3 +1,10 @@
+## [1.0.10](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.0.9...v1.0.10) (2022-06-05)
+
+
+### Bug Fixes
+
+* **prisma-client:** I'm making a change in Lerna subproject, and wanna see this to be included inside root project's changelog (and increasing its version also) ([45c466f](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/45c466f6a68df416c804c78a6be7b3c03dcd5f70))
+
 ## [1.0.9](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.0.8...v1.0.9) (2022-06-05)
 
 
