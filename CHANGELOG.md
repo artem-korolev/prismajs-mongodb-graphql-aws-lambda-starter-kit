@@ -1,3 +1,10 @@
+## [1.0.11](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.0.10...v1.0.11) (2022-06-06)
+
+
+### Bug Fixes
+
+* **documentation:** fixing typos and adding few words to VSCode dictionary ([71e5ba2](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/71e5ba2b94449b61cc47730baba2a79b6cdeba72))
+
 ## [1.0.10](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.0.9...v1.0.10) (2022-06-05)
 
 
