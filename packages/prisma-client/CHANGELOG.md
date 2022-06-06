@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.19](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/prisma-client@1.3.18...prisma-client@1.3.19) (2022-06-06)
+
+
+### Bug Fixes
+
+* **documentation:** fixing typos and adding few words to VSCode dictionary ([71e5ba2](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/71e5ba2b94449b61cc47730baba2a79b6cdeba72))
+
+
+
+
+
 ## [1.3.18](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/prisma-client@1.3.17...prisma-client@1.3.18) (2022-06-05)
 
 
