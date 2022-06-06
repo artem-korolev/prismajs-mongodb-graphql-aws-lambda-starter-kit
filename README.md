@@ -160,4 +160,18 @@ Checkout GraphQL with Playground deployed to AWS Lambda with MongoDB Cloud Share
 
 https://rb7zk6fsce.execute-api.us-east-1.amazonaws.com/dev/graphql
 
+Query example:
+
+```graphql
+# Write your query or mutation here
+query {
+  users {
+    id
+    email
+    name
+    __typename
+  }
+}
+```
+
 🤘💪🤣😍❤
