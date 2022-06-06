@@ -7,7 +7,7 @@
 ![MongoDB](doc/logos/mongodb.png)
 ![Prisma](doc/logos/prisma.png)
 ![GitHub](doc/logos/github.png)
-![AWS Lambda](doc/logos/awslambda.png)
+![AWS Lambda](doc/logos/aws-lambda.png)
 
 
 Starter kit for quick start with Typescript, Lerna, GraphQL and MongoDB locally

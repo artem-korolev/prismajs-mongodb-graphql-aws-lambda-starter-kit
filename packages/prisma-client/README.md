@@ -22,7 +22,7 @@ Starter kit for quick start with Typescript, Lerna, GraphQL and MongoDB locally.
 
 - Docker Compose - tool for defining and running multi-container Docker
   applications. **Its used in this project to run MongoDB database in dev environment locally. Prisma Client requires Mongo to run in replica
-  mode, so standalone MondoDB Commuynity Server is not enough**
+  mode, so standalone MondoDB Community Server is not enough**
 
 ## Bootstrap lerna environment
 

@@ -1,6 +1,9 @@
 {
     "cSpell.words": [
+        "predeploy",
         "prismajs",
+        "subproject",
+        "tsnd",
         "typegen"
     ]
 }
