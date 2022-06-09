@@ -6,6 +6,7 @@
 ![GraphQL](doc/logos/graphql.png)
 ![MongoDB](doc/logos/mongodb.png)
 ![Prisma](doc/logos/prisma.png)
+![Rollup.js](doc/logos/rollup.png)
 ![GitHub](doc/logos/github.png)
 ![AWS Lambda](doc/logos/aws-lambda.png)
 
@@ -33,7 +34,9 @@ and deploy to AWS Lambda + MongoDB Shared Cloud using GitHub Actions.
 
 - GraphQL - query language for APIs and a runtime for fulfilling those queries with your existing data
   
-  [https://graphql.org/](https://graphql.org/)
+  [https://graphql.org/](https://graphql.org/)\
+
+- Rollup.js - module bundler for JavaScript which compiles small pieces of code into something larger and more complex, such as a library or application
 
 - Docker Compose - tool for defining and running multi-container Docker
   applications. **Its used in this project to run MongoDB database in dev environment locally. Prisma Client requires Mongo to run in replica

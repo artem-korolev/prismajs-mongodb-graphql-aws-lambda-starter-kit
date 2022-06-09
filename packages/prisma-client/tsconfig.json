@@ -1,6 +1,18 @@
 {
   "compilerOptions": {
     //"allowJs": true /* Allow javascript files to be compiled. */,
+
+    "target": "es6",
+    "module": "esnext",
+    "jsx": "react",
+    "declaration": true,
+    "declarationDir": "types",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "emitDeclarationOnly": true,
+
     "sourceMap": true,
     "outDir": "dist",
     "strict": true,

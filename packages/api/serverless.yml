@@ -1,3 +1,5 @@
+# NOTE: Uncomment next line with `org` property to deploy this project
+#       to serverless.com dashboard
 #org: prorokxp
 app: prisma-aws-lambda-example
 service: prisma-aws-lambda-example
