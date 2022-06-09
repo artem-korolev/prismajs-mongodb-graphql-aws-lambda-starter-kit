@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.2.0...v1.2.1) (2022-06-09)
+
+
+### Bug Fixes
+
+* **Cloud application:** fix location of prisma-client module ([7473772](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/7473772a44aa9ebaae3b766767a71280c463f4e8))
+
 # [1.2.0](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.1.0...v1.2.0) (2022-06-09)
 
 
