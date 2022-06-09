@@ -1,5 +1,5 @@
 import { join } from 'path'
-import { makeSchema, objectType, queryType, intArg, nonNull, stringArg } from 'nexus'
+import { makeSchema, objectType, queryType, nonNull, stringArg } from 'nexus'
 
 const User = objectType({
   name: 'User',
@@ -43,7 +43,7 @@ export const schema = makeSchema({
   sourceTypes: {
     modules: [
       {
-        module: require.resolve('.prisma/client/index.d.ts'),
+        module: require.resolve('prisma-client/dist/index.d.ts'),
         alias: 'prisma',
       },
     ],
