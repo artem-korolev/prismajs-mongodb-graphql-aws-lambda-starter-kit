@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.1.0...v1.2.0) (2022-06-09)
+
+
+### Features
+
+* **Project structure:** separate prisma-client project into two separate projects; ([b17d86c](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/b17d86ca2da878abe891e3d05a72b8c4fdf736ed))
+
 # [1.1.0](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.0.11...v1.1.0) (2022-06-06)
 
 
