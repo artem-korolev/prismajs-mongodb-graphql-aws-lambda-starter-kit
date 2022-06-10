@@ -5,6 +5,7 @@ import { terser } from "rollup-plugin-terser";
 import external from "rollup-plugin-peer-deps-external";
 import postcss from "rollup-plugin-postcss";
 import dts from "rollup-plugin-dts";
+import copy from 'rollup-plugin-copy';
 
 const packageJson = require("./package.json");
 
@@ -25,6 +26,12 @@ export default [
       },
     ],
     plugins: [
+      copy({
+        targets: [
+          { src: 'prisma/*', dest: ['dist/cjs', 'dist/esm'] },
+          { src: 'node_modules/.prisma/client/*.node', dest: ['dist/cjs/', 'dist/esm/'] },
+        ]
+      }),
       external(),
       resolve({ preferBuiltins: true }),
       commonjs(),
@@ -35,7 +42,7 @@ export default [
   },
   {
     input: "dist/esm/types/index.d.ts",
-    output: [{ file: "dist/index.d.ts", format: "esm" }],
+    output: [{ file: "dist/index.d.ts", format: "cjs" }],
     external: [/\.css$/],
     plugins: [dts()],
   },

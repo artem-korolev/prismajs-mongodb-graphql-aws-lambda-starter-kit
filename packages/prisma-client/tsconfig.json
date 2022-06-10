@@ -2,7 +2,7 @@
   "compilerOptions": {
     //"allowJs": true /* Allow javascript files to be compiled. */,
 
-    "target": "es6",
+    "target": "es5",
     "module": "esnext",
     "jsx": "react",
     "declaration": true,
