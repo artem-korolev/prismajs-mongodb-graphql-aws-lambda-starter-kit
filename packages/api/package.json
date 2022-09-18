@@ -34,6 +34,7 @@
     "rollup-plugin-terser": "^7.0.2",
     "serverless": "^3.15.2",
     "serverless-dotenv-plugin": "^4.0.0",
+    "serverless-esbuild": "^1.32.8",
     "serverless-offline": "^8.8.0",
     "serverless-rollup-plugin": "^2.5.1",
     "serverless-webpack": "^5.7.1",
