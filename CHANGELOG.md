@@ -1,3 +1,10 @@
+## [1.2.8](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.2.7...v1.2.8) (2022-09-18)
+
+
+### Bug Fixes
+
+* **deploy:** fixing deploy process ([d9a85d2](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/d9a85d205fa661a5eaebc57072d36b07ce922a89))
+
 ## [1.2.7](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.2.6...v1.2.7) (2022-09-18)
 
 
