@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.2.3...v1.2.4) (2022-09-18)
+
+
+### Bug Fixes
+
+* **deploy:** trying to solve issue with large archive size ([c85945a](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/c85945acf86acd320a935a7112fbd1d8322879b4))
+
 ## [1.2.3](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.2.2...v1.2.3) (2022-09-18)
 
 
