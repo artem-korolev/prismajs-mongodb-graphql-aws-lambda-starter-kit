@@ -1,6 +1,5 @@
 # PrismaJS with TypeScript + MongoDB + Lerna + AWS Lambda + Serverless
 
-
 ![TypeScript](doc/logos/ts-logo.png)
 ![Lerna](doc/logos/lerna.png)
 ![GraphQL](doc/logos/graphql.png)
@@ -9,7 +8,6 @@
 ![Rollup.js](doc/logos/rollup.png)
 ![GitHub](doc/logos/github.png)
 ![AWS Lambda](doc/logos/aws-lambda.png)
-
 
 Starter kit for quick start with Typescript, Lerna, GraphQL and MongoDB locally
 and deploy to AWS Lambda + MongoDB Shared Cloud using GitHub Actions.
@@ -69,13 +67,13 @@ using MongoDB in Docker and Prisma Client in serverless offline mode.
 docker-compose up -d
 ```
 
-### Run Prisma Client in serverless offline mode:
+### Run Prisma Client in serverless offline mode
 
 ```bash
 npx lerna run --parallel dev
 ```
 
-or inside packages/prisma-client
+or inside packages/api
 
 ```bash
 npm run dev
