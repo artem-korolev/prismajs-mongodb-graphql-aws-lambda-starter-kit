@@ -4,6 +4,7 @@
 app: prisma-aws-lambda-example
 service: prisma-aws-lambda-example
 plugins:
+  - serverless-rollup-plugin
   - serverless-dotenv-plugin
   - serverless-offline
 
@@ -27,6 +28,8 @@ functions:
 
 # only include the Prisma binary required on AWS Lambda while packaging
 package:
+  exclude:
+    - node_modules/**
   patterns:
     - '!node_modules/prisma-client/node_modules/.prisma/client/libquery_engine-*'
     - 'node_modules/prisma-client/node_modules/.prisma/client/libquery_engine-rhel-*'
@@ -36,3 +39,5 @@ package:
 custom:
   serverless-offline:
     useChildProcesses: true
+  rollup:
+    config: ./rollup.config.js
