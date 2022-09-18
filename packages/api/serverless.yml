@@ -30,11 +30,11 @@ functions:
 package:
   exclude:
     - node_modules/**
-  patterns:
-    - '!node_modules/prisma-client/node_modules/.prisma/client/libquery_engine-*'
-    - 'node_modules/prisma-client/node_modules/.prisma/client/libquery_engine-rhel-*'
-    - '!node_modules/prisma-client/node_modules/prisma/libquery_engine-*'
-    - '!node_modules/prisma-client/node_modules/@prisma/engines/**'
+  # patterns:
+  #   - '!node_modules/prisma-client/node_modules/.prisma/client/libquery_engine-*'
+  #   - 'node_modules/prisma-client/node_modules/.prisma/client/libquery_engine-rhel-*'
+  #   - '!node_modules/prisma-client/node_modules/prisma/libquery_engine-*'
+  #   - '!node_modules/prisma-client/node_modules/@prisma/engines/**'
 
 custom:
   serverless-offline:
