@@ -6,8 +6,8 @@ service: prisma-aws-lambda-example
 plugins:
   - serverless-dotenv-plugin
   - serverless-offline
-  # - serverless-esbuild
-  - serverless-rollup-plugin
+  - serverless-esbuild
+  # - serverless-rollup-plugin
 
 provider:
   name: aws
@@ -29,8 +29,20 @@ functions:
 
 # only include the Prisma binary required on AWS Lambda while packaging
 package:
-  exclude:
-    - node_modules/**
+  individually: true
+  # exclude:
+  #   - node_modules/**
+  custom:
+    esbuild:
+      bundle: true
+      minify: false
+      sourcemap: true
+      exclude: ['aws-sdk']
+      target: 'node14'
+      define:
+        require.resolve: undefined
+      platform: 'node'
+      concurrency: 10
   # patterns:
   #   - '!node_modules/prisma-client/node_modules/.prisma/client/libquery_engine-*'
   #   - 'node_modules/prisma-client/node_modules/.prisma/client/libquery_engine-rhel-*'
