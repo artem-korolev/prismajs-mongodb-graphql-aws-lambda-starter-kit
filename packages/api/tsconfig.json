@@ -3,11 +3,11 @@
     //"allowJs": true /* Allow javascript files to be compiled. */,
     "sourceMap": true,
     "outDir": "dist",
+    // "module": "commonjs",
     "strict": true,
     "lib": ["esnext"],
     "esModuleInterop": true
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }
