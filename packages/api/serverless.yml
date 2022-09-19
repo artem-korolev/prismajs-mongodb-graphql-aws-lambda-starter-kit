@@ -4,10 +4,10 @@
 app: prisma-aws-lambda-example
 service: prisma-aws-lambda-example
 plugins:
-  # - serverless-rollup-plugin
   - serverless-dotenv-plugin
   - serverless-offline
-  - serverless-esbuild
+  # - serverless-esbuild
+  - serverless-rollup-plugin
 
 provider:
   name: aws

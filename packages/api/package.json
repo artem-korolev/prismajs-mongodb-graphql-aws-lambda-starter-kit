@@ -3,7 +3,7 @@
   "version": "0.1.7",
   "private": "true",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/server.js",
   "scripts": {
     "build": "tsc --build",
     "clean": "tsc --build --clean",
