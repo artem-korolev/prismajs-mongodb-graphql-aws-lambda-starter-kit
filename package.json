@@ -7,13 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "post-publish": "echo \"+++-----++++TESTING LERNA POST-PUBLISH SCRIPTS (ROOT PROJECT)++++-----++++\""
   },
-  "author": "",
+  "author": "Artem Korolev",
   "license": "ISC",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
-    "lerna": "^4.0.0",
-    "semantic-release": "^19.0.2"
+    "lerna": "^5.5.1",
+    "semantic-release": "^19.0.5"
   },
   "release": {
     "branches": [

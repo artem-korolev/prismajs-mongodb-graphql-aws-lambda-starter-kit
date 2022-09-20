@@ -1,23 +1,17 @@
 {
   "compilerOptions": {
-    //"allowJs": true /* Allow javascript files to be compiled. */,
-
-    "target": "es5",
-    "module": "esnext",
-    "jsx": "react",
-    "declaration": true,
-    "declarationDir": "types",
     "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "emitDeclarationOnly": true,
-
+    "removeComments": false,
     "sourceMap": true,
-    "outDir": "dist",
+    "target": "ES5",
+    "outDir": "build/types",
+    "declaration": true,
     "strict": true,
-    "lib": ["esnext"],
-    "esModuleInterop": true
+    "module": "ESNext",
+    "noEmitOnError": true,
+    "lib": ["ES2018"],
+    "esModuleInterop": false,
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src"]
 }
