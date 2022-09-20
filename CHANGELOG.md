@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.2.11...v1.3.0) (2022-09-20)
+
+
+### Bug Fixes
+
+* **deploy:** using serverless-bundle for bundling lambda functions ([a10131c](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/a10131c70dfcc8e15b4d3b9e3b72efea00ea361f))
+
+
+### Features
+
+* **deploy:** using Webpack in lue of Rollup; build fixes for prisma-client ([a40f260](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/a40f260e04d11cd9d9a7eb8b84504898552f42ce))
+
 ## [1.2.11](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.2.10...v1.2.11) (2022-09-19)
 
 
