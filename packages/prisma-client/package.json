@@ -11,8 +11,8 @@
   "scripts": {
     "postinstall": "npm run build",
     "prisma:generate": "npx prisma generate",
-    "clean": "npx rimraf build .parcel-cache",
-    "build": "npm run clean && npm run prisma:generate && npx parcel build --log-level verbose",
+    "clean": "npx rimraf dist .parcel-cache",
+    "build": "npm run clean && npm run prisma:generate && npx parcel build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "post-publish": "echo \"+++-----++++TESTING LERNA POST-PUBLISH SCRIPTS (PRISMA-CLIENT project)++++-----++++\""
   },
