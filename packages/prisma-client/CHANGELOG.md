@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.2](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/prisma-client@1.6.1...prisma-client@1.6.2) (2022-09-21)
+
+
+### Bug Fixes
+
+* **build:** debugging GitHub  Actions ([eae83a7](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/eae83a766eaef383d64ca6a1238190d174efc9ef))
+* **build:** Using Parcel.Js to create universal Typescript NodeJs module ([855ed84](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/855ed841a18d868670194f2e5af2a3c67d95029e))
+* **deploy:** using nodejs 16.x in GitHub Actions ([41f5909](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/41f590964c09cd7d29b4e1ccc18e7a00b10159c2))
+
+
+
+
+
 ## [1.6.1](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/prisma-client@1.6.0...prisma-client@1.6.1) (2022-09-20)
 
 **Note:** Version bump only for package prisma-client
