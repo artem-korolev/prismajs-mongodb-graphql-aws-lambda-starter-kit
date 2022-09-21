@@ -1,6 +1,6 @@
 {
   "name": "api",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "private": "true",
   "description": "",
   "source": "src/server.ts",
