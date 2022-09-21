@@ -1,3 +1,11 @@
+## [1.3.5](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.3.4...v1.3.5) (2022-09-21)
+
+
+### Bug Fixes
+
+* **deploy:** tuning CI/CD configuration ([5a2f93c](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/5a2f93cefbef92609d6cc9bdaa7d58e8b08e3bcf))
+* **deploy:** using NodeJS 16.x for compatibility with compiled application ([687300c](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/687300c25179b9dcfd5c299c88ff61d21b49269a))
+
 ## [1.3.4](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.3.3...v1.3.4) (2022-09-21)
 
 
