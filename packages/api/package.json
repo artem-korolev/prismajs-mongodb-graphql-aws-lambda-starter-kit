@@ -17,6 +17,9 @@
       "sourceMap": false
     }
   },
+  "staticFiles": {
+    "staticPath": "node_modules/prisma-client/dist/generated/prisma/client/libquery_engine-rhel-openssl-1.0.x.so.node"
+  },
   "scripts": {
     "postinstall": "npm run nexus:generate",
     "build-prod": "npx parcel build --no-optimize",
@@ -38,6 +41,7 @@
     "url": "https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit"
   },
   "devDependencies": {
+    "@parcel/config-default": "^2.7.0",
     "@parcel/packager-ts": "^2.7.0",
     "@parcel/transformer-typescript-types": "^2.7.0",
     "@tsconfig/recommended": "^1.0.1",
@@ -47,6 +51,7 @@
     "cross-env": "^7.0.3",
     "npm-run-all": "^4.1.5",
     "parcel": "^2.7.0",
+    "parcel-reporter-static-files-copy": "^1.4.0",
     "prettier": "^2.7.1",
     "serverless": "^3.22.0",
     "serverless-bundle": "^5.5.0",
