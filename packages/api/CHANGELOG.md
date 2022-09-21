@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.6](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/api@0.2.5...api@0.2.6) (2022-09-21)
+
+
+### Bug Fixes
+
+* **deploy:** removing unnecessary step to significantly speed up deployment process ([d1682d7](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/d1682d72d62514286c5fc4e0f9f7e21b74344e64))
+
+
+
+
+
 ## [0.2.5](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/api@0.2.4...api@0.2.5) (2022-09-21)
 
 
