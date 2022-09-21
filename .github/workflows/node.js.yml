@@ -35,7 +35,7 @@ jobs:
       - run: git config --global user.name "GitHub Actions"
       - run: npm ci
       - run: npx lerna bootstrap
-      - run: npx lerna run build
+      - run: npx lerna run build-prod
       - run: npx lerna publish --yes
       - run: npx semantic-release
       - run: npx lerna run deploy
