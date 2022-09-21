@@ -5,7 +5,7 @@ node_modules
 
 yarn-error.log
 dist
-build
+.parcel-cache
 tmp
 pnpm-debug.log
 sandbox
