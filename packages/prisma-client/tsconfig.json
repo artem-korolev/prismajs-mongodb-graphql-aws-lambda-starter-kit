@@ -1,17 +1,6 @@
 {
+  "extends": "@tsconfig/recommended/tsconfig.json",
   "compilerOptions": {
-    "moduleResolution": "node",
-    "removeComments": false,
-    "sourceMap": true,
-    "target": "ES5",
-    "outDir": "build/types",
-    "declaration": true,
-    "strict": true,
-    "module": "ESNext",
-    "noEmitOnError": true,
-    "lib": ["ES2018"],
-    "esModuleInterop": false,
-    "forceConsistentCasingInFileNames": true
-  },
-  "include": ["src"]
+    "lib": ["ES2022"]
+  }
 }
