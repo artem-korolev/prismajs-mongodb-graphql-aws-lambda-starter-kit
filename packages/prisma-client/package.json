@@ -12,7 +12,7 @@
     "postinstall": "npm run build",
     "prisma:generate": "npx prisma generate",
     "clean": "npx rimraf build .parcel-cache",
-    "build": "npm run clean && npm run prisma:generate && npx parcel build",
+    "build": "npm run clean && npm run prisma:generate",
     "test": "echo \"Error: no test specified\" && exit 1",
     "post-publish": "echo \"+++-----++++TESTING LERNA POST-PUBLISH SCRIPTS (PRISMA-CLIENT project)++++-----++++\""
   },
