@@ -70,7 +70,7 @@ docker-compose up -d
 ### Run whole project in serverless offline mode with live-reload for all packages
 
 ```bash
-npx lerna run --parallel dev
+npx lerna run --parallel start-dev
 ```
 
 or inside packages/api
