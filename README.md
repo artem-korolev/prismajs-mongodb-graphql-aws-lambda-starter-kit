@@ -112,7 +112,7 @@ npx ts-node index.ts
 
 ## Prisma Studio
 
-```start-dev``` script starting it Automatically,
+`start-dev` script starting it Automatically,
 if you want to run it manually, then Inside packages/prisma-client
 directory run this:
 
