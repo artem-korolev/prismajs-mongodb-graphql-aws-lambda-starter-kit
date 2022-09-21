@@ -1,6 +1,6 @@
 {
   "name": "prismajs-mongodb-aws-lambda-graphql-lerna-typescript-starter-kit",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "private": "true",
   "description": "Starter Kit for client/server app with full system development life cycle",
   "scripts": {
