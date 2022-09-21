@@ -34,6 +34,7 @@ package:
     - "!.*/**"
     - "!**"
     - "dist/**"
+    - ".env*"
 
 custom:
   serverless-offline:
