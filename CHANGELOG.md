@@ -1,3 +1,13 @@
+## [1.3.2](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.3.1...v1.3.2) (2022-09-21)
+
+
+### Bug Fixes
+
+* **build:** debugging GitHub  Actions ([eae83a7](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/eae83a766eaef383d64ca6a1238190d174efc9ef))
+* **build:** Using Parcel.Js to create universal Typescript NodeJs module ([855ed84](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/855ed841a18d868670194f2e5af2a3c67d95029e))
+* **deploy:** using nodejs 16.x in GitHub Actions ([41f5909](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/41f590964c09cd7d29b4e1ccc18e7a00b10159c2))
+* **deploy:** using serverless-bundle-plugin to deploy minified version to AWS Lambda ([29d1582](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/29d1582c9a6988a38678d538e5a5b50c911903f3))
+
 ## [1.3.1](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.3.0...v1.3.1) (2022-09-20)
 
 
