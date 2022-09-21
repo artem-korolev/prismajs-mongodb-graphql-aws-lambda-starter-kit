@@ -6,7 +6,7 @@
 ![MongoDB](doc/logos/mongodb.png)
 ![Prisma](doc/logos/prisma.png)
 ![Parcel.js](doc/logos/parcel.png)
-![GitHub](doc/logos/github.png)
+![GitHub](doc/logos/github.jpeg)
 ![AWS Lambda](doc/logos/aws-lambda.png)
 
 Starter kit for quick start with Typescript, Lerna, GraphQL and MongoDB locally
