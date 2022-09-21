@@ -19,7 +19,7 @@
   },
   "scripts": {
     "postinstall": "npm run nexus:generate",
-    "build": "npm run clean && npx parcel build",
+    "build-prod": "npx parcel build",
     "clean": "npx rimraf dist .parcel-cache",
     "watch:nexus": "tsnd --transpile-only src/schema",
     "watch:ts": "tsc --watch",
@@ -27,7 +27,7 @@
     "dev": "run-p watch:* offline",
     "nexus:generate": "ts-node --transpile-only src/schema",
     "predeploy": "run-s nexus:generate",
-    "deploy": "cross-env NODE_ENV=production && create-env --env-file .env.local --env-prefix PROD_ && npm run build && npx serverless deploy",
+    "deploy": "cross-env NODE_ENV=production && create-env --env-file .env.local --env-prefix PROD_ && npm run build-prod && npx serverless deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
