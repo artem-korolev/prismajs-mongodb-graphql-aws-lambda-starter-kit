@@ -43,7 +43,7 @@ export const schema = makeSchema({
   sourceTypes: {
     modules: [
       {
-        module: require.resolve('prisma-client/dist/index.d.ts'),
+        module: require.resolve('prisma-client/dist/types.d.ts'),
         alias: 'prisma',
       },
     ],

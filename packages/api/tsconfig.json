@@ -1,18 +1,3 @@
 {
-  "compilerOptions": {
-    "moduleResolution": "node",
-    "removeComments": false,
-    "sourceMap": true,
-    "target": "ES5",
-    "outDir": "dist",
-    "declaration": true,
-    "strict": true,
-    "module": "ESNext",
-    "noEmitOnError": true,
-    "lib": ["ES2018"],
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true
-  },
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules", "**/*.spec.ts"]
+  "extends": "@tsconfig/recommended/tsconfig.json"
 }
