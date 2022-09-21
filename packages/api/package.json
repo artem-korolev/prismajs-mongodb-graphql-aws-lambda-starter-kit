@@ -8,7 +8,7 @@
   "targets": {
     "main": {
       "engines": {
-        "node": ">=14.x"
+        "node": "16"
       },
       "includeNodeModules": true,
       "context": "node",
