@@ -5,7 +5,7 @@
 ![GraphQL](doc/logos/graphql.png)
 ![MongoDB](doc/logos/mongodb.png)
 ![Prisma](doc/logos/prisma.png)
-![Rollup.js](doc/logos/rollup.png)
+![Parcel.js](doc/logos/parcel.png)
 ![GitHub](doc/logos/github.png)
 ![AWS Lambda](doc/logos/aws-lambda.png)
 
@@ -15,15 +15,15 @@ and deploy to AWS Lambda + MongoDB Shared Cloud using GitHub Actions.
 ## Technologies used
 
 - Prisma - Next-generation Node.js and TypeScript ORM with GraphQL interface
-  
+
   [https://www.prisma.io/](https://www.prisma.io/)
 
 - MongoDB - JSON document database
-  
+
   [https://www.mongodb.com/](https://www.mongodb.com/)
 
 - Typescript - JavaScript with syntax for types
-  
+
   [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
 
 - Lerna - A tool for managing JavaScript projects with multiple packages
@@ -31,10 +31,10 @@ and deploy to AWS Lambda + MongoDB Shared Cloud using GitHub Actions.
   [https://lerna.js.org/](https://lerna.js.org/)
 
 - GraphQL - query language for APIs and a runtime for fulfilling those queries with your existing data
-  
-  [https://graphql.org/](https://graphql.org/)\
 
-- Rollup.js - module bundler for JavaScript which compiles small pieces of code into something larger and more complex, such as a library or application
+  [https://graphql.org/](https://graphql.org/)
+
+- Parcel.js - Parcel is a zero configuration build tool for the web. It combines a great out-of-the-box development experience with a scalable architecture that can take your project from just getting started to massive production application
 
 - Docker Compose - tool for defining and running multi-container Docker
   applications. **Its used in this project to run MongoDB database in dev environment locally. Prisma Client requires Mongo to run in replica
@@ -54,20 +54,20 @@ npx lerna bootstrap
 
 It will generate Prisma Client automatically with npm postinstall script.
 When you modify your schema and want to test locally, then follow steps in
-[Generate Prisma Client](#generate-prisma-client)
+[Build Prisma Client library](#build-prisma-client-library)
 
 ## Run project locally with MongoDB in Docker Compose
 
 You will have a complete local development experience with debug and live reload
 using MongoDB in Docker and Prisma Client in serverless offline mode.
 
-### Start MongoDB with replica:
+### Start MongoDB with replica
 
 ```bash
 docker-compose up -d
 ```
 
-### Run Prisma Client in serverless offline mode
+### Run whole project in serverless offline mode with live-reload for all packages
 
 ```bash
 npx lerna run --parallel dev
@@ -76,30 +76,33 @@ npx lerna run --parallel dev
 or inside packages/api
 
 ```bash
-npm run dev
+npm run start-dev
 ```
 
-GraphQL Playground: http://localhost:3000/dev/graphql
+GraphQL Playground: [http://localhost:3000/dev/graphql](http://localhost:3000/dev/graphql)
 
-## Generate Prisma Client
+## Build Prisma Client library
 
-With Lerna:
+With Lerna (Manually):
 
 ```bash
-npx lerna run prisma:generate
+npx lerna run build-dev
 ```
 
 Or from inside **packages/prisma-client** package you can use it directly:
 
 ```bash
-npx prisma generate
+npm run build-dev
 ```
 
-or
+or run in live-reload mode (Automatic):
 
 ```bash
-npm run prisma:generate
+npx lerna run start-dev
 ```
+
+`start-dev` - you can run this script within some specific package,
+if you want live reload only for this one.
 
 ## Run sample code
 
@@ -109,7 +112,9 @@ npx ts-node index.ts
 
 ## Prisma Studio
 
-Inside packages/prisma-client directory run this
+```start-dev``` script starting it Automatically,
+if you want to run it manually, then Inside packages/prisma-client
+directory run this:
 
 ```bash
 npx prisma studio
@@ -131,8 +136,9 @@ It requires secrets to be added to project Actions configuration (Repository / S
 - PROD_AWS_SECRET_ACCESS_KEY
 
   AWS security keys. [Read here](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html#cli-configure-quickstart-creds-create)
+
 - PROD_DATABASE_URL
-  
+
   MongoDB connection string. Get it from MongoDB Cloud admin (you can use any plan)
 
 If you know what you are doing and want to deploy it manually
@@ -159,7 +165,7 @@ npx serverless
 
 Checkout GraphQL with Playground deployed to AWS Lambda with MongoDB Cloud Shared:
 
-https://rb7zk6fsce.execute-api.us-east-1.amazonaws.com/dev/graphql
+[https://rb7zk6fsce.execute-api.us-east-1.amazonaws.com/dev/graphql](https://rb7zk6fsce.execute-api.us-east-1.amazonaws.com/dev/graphql)
 
 Query example:
 
