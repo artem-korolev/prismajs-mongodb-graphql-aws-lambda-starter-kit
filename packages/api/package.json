@@ -19,7 +19,7 @@
   },
   "scripts": {
     "postinstall": "npm run nexus:generate",
-    "build-prod": "npx parcel build",
+    "build-prod": "npx parcel build --no-optimize",
     "clean": "npx rimraf dist .parcel-cache",
     "watch:nexus": "tsnd --transpile-only src/schema",
     "watch:ts": "tsc --watch",
