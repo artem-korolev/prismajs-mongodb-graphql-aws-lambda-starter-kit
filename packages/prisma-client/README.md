@@ -3,7 +3,7 @@
 Starter kit for quick start with Typescript, Lerna, GraphQL and MongoDB locally.
 
 If you are using this project as package under Lerna package manager,
-then follow instructions from [Top Level Documentation](../../)
+then follow instructions from [Top Level Documentation](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/tree/master/packages/prisma-client)
 
 Documentation bellow is relevant only for running this package alone as
 boilerplate for Prisma Client based projects.
