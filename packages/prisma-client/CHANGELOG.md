@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.8](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/prisma-client@1.6.7...prisma-client@1.6.8) (2022-09-23)
+
+
+### Bug Fixes
+
+* **deploy:** parcel command fix ([2d34451](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/2d34451738db51c16bd701b4eb3e9b4d3e42dffb))
+
+
+
+
+
 ## [1.6.7](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/prisma-client@1.6.6...prisma-client@1.6.7) (2022-09-23)
 
 **Note:** Version bump only for package prisma-client
