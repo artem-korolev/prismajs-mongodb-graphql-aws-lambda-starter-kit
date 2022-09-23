@@ -1,13 +1,6 @@
 # PrismaJS with TypeScript + MongoDB + Lerna + AWS Lambda + Serverless
 
-[![TypeScript](doc/logos/ts-logo.png)](https://www.typescriptlang.org/)
-[![Lerna](doc/logos/lerna.png)](https://lerna.js.org/)
-[![GraphQL](doc/logos/graphql.png)](https://graphql.org/)
-[![MongoDB](doc/logos/mongodb.png)](https://www.mongodb.com/)
-[![Prisma](doc/logos/prisma.png)](https://www.prisma.io/)
-[![Parcel.js](doc/logos/parcel.png)](https://parceljs.org/)
-[![GitHub](doc/logos/github.jpeg)](https://github.com/)
-[![AWS Lambda](doc/logos/aws-lambda.png)](https://aws.amazon.com/lambda/)
+
 
 Starter kit for quick start with Typescript, Lerna, GraphQL and MongoDB locally
 and deploy to AWS Lambda + MongoDB Shared Cloud using GitHub Actions.
@@ -35,6 +28,15 @@ query {
 🤘💪🤣😍❤
 
 ## Technologies used
+
+[![TypeScript](doc/logos/ts-logo.png)](https://www.typescriptlang.org/)
+[![Lerna](doc/logos/lerna.png)](https://lerna.js.org/)
+[![GraphQL](doc/logos/graphql.png)](https://graphql.org/)
+[![MongoDB](doc/logos/mongodb.png)](https://www.mongodb.com/)
+[![Prisma](doc/logos/prisma.png)](https://www.prisma.io/)
+[![Parcel.js](doc/logos/parcel.png)](https://parceljs.org/)
+[![GitHub](doc/logos/github.jpeg)](https://github.com/)
+[![AWS Lambda](doc/logos/aws-lambda.png)](https://aws.amazon.com/lambda/)
 
 - Prisma - Next-generation Node.js and TypeScript ORM with GraphQL interface
 
