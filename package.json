@@ -4,6 +4,7 @@
   "private": "true",
   "description": "Starter Kit for client/server app with full system development life cycle",
   "scripts": {
+    "start-dev": "echo \"Use 'npx lerna run --parallel start-dev\" command instead",
     "test": "echo \"Error: no test specified\" && exit 1",
     "post-publish": "echo \"+++-----++++TESTING LERNA POST-PUBLISH SCRIPTS (ROOT PROJECT)++++-----++++\""
   },
