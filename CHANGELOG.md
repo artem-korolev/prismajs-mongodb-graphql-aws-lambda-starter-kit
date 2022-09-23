@@ -1,3 +1,10 @@
+## [1.3.10](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.3.9...v1.3.10) (2022-09-23)
+
+
+### Bug Fixes
+
+* **deploy:** parcel command fix ([2d34451](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/commit/2d34451738db51c16bd701b4eb3e9b4d3e42dffb))
+
 ## [1.3.9](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/compare/v1.3.8...v1.3.9) (2022-09-21)
 
 
