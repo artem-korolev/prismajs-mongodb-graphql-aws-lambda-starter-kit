@@ -185,9 +185,12 @@ It requires secrets to be added to project Actions configuration (Repository / S
 
   MongoDB connection string. Get it from MongoDB Cloud admin (you can use any plan)
 
-If you know what you are doing and want to deploy it manually
-(temporary staging environment, for example, or demo purposes),
-then crete **.env.local** and override DATABASE_URL with your own and run this:
+> **Warning**
+> Execute deploy commands below only if you know what you are doing
+> and want to deploy it manually (temporary staging environment,
+> for example, or demo purposes),
+> then crete **.env.local** and override DATABASE_URL with your own
+> and run this:
 
 ```bash
 npx lerna deploy
