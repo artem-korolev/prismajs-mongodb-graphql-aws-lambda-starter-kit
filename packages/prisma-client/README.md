@@ -10,15 +10,15 @@ boilerplate for Prisma Client based projects.
 
 ## Table of Contents
 
-* [Table of Contents](#table-of-contents)
-* [Bootstrap lerna environment](#bootstrap-lerna-environment)
-* [Run project locally with MongoDB in Docker Compose](#run-project-locally-with-mongodb-in-docker-compose)
-* [Generate Prisma Client](#generate-prisma-client)
-* [Run sample code](#run-sample-code)
-* [Prisma Studio](#prisma-studio)
-* [MongoDB Cloud Shared (M0 clusters) configuration](#mongodb-cloud-shared-m0-clusters-configuration)
-* [Deploy to AWS Lambda](#deploy-to-aws-lambda)
-* [Connect project to Serverless Dashboard](#connect-project-to-serverless-dashboard)
+- [Table of Contents](#table-of-contents)
+- [Bootstrap lerna environment](#bootstrap-lerna-environment)
+- [Run project locally with MongoDB in Docker Compose](#run-project-locally-with-mongodb-in-docker-compose)
+- [Generate Prisma Client](#generate-prisma-client)
+- [Run sample code](#run-sample-code)
+- [Prisma Studio](#prisma-studio)
+- [MongoDB Cloud Shared (M0 clusters) configuration](#mongodb-cloud-shared-m0-clusters-configuration)
+- [Deploy to AWS Lambda](#deploy-to-aws-lambda)
+- [Connect project to Serverless Dashboard](#connect-project-to-serverless-dashboard)
 
 ## Bootstrap lerna environment
 

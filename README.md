@@ -27,19 +27,19 @@ query {
 
 ## Table of Contents
 
-* [Demo](#demo)
-* [Table of Contents](#table-of-contents)
-* [Technologies used](#technologies-used)
-* [Bootstrap lerna environment](#bootstrap-lerna-environment)
-* [Run project locally with MongoDB in Docker Compose](#run-project-locally-with-mongodb-in-docker-compose)
-  * [Start MongoDB with replica](#start-mongodb-with-replica)
-  * [Run whole project in serverless offline mode with live-reload for all packages](#run-whole-project-in-serverless-offline-mode-with-live-reload-for-all-packages)
-* [Build Prisma Client library](#build-prisma-client-library)
-* [Run sample code](#run-sample-code)
-* [Prisma Studio](#prisma-studio)
-* [MongoDB Cloud Shared (M0 clusters) configuration](#mongodb-cloud-shared-m0-clusters-configuration)
-* [Deploy to AWS Lambda](#deploy-to-aws-lambda)
-* [Connect project to Serverless Dashboard](#connect-project-to-serverless-dashboard)
+- [Demo](#demo)
+- [Table of Contents](#table-of-contents)
+- [Technologies used](#technologies-used)
+- [Bootstrap lerna environment](#bootstrap-lerna-environment)
+- [Run project locally with MongoDB in Docker Compose](#run-project-locally-with-mongodb-in-docker-compose)
+  - [Start MongoDB with replica](#start-mongodb-with-replica)
+  - [Run whole project in serverless offline mode with live-reload for all packages](#run-whole-project-in-serverless-offline-mode-with-live-reload-for-all-packages)
+- [Build Prisma Client library](#build-prisma-client-library)
+- [Run sample code](#run-sample-code)
+- [Prisma Studio](#prisma-studio)
+- [MongoDB Cloud Shared (M0 clusters) configuration](#mongodb-cloud-shared-m0-clusters-configuration)
+- [Deploy to AWS Lambda](#deploy-to-aws-lambda)
+- [Connect project to Serverless Dashboard](#connect-project-to-serverless-dashboard)
 
 ## Technologies used
 
@@ -53,23 +53,18 @@ query {
 [![AWS Lambda](doc/logos/aws-lambda.png)](https://aws.amazon.com/lambda/)
 
 - Prisma - Next-generation Node.js and TypeScript ORM with GraphQL interface
-
   [https://www.prisma.io/](https://www.prisma.io/)
 
 - MongoDB - JSON document database
-
   [https://www.mongodb.com/](https://www.mongodb.com/)
 
 - Typescript - JavaScript with syntax for types
-
   [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
 
 - Lerna - A tool for managing JavaScript projects with multiple packages
-
   [https://lerna.js.org/](https://lerna.js.org/)
 
 - GraphQL - query language for APIs and a runtime for fulfilling those queries with your existing data
-
   [https://graphql.org/](https://graphql.org/)
 
 - Parcel.js - Parcel is a zero configuration build tool for the web. It combines a great out-of-the-box development experience with a scalable architecture that can take your project from just getting started to massive production application
