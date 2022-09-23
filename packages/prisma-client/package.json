@@ -9,10 +9,10 @@
   "browser": "dist/browser.js",
   "types": "dist/types.d.ts",
   "scripts": {
-    "postinstall": "npm run prisma:generate && npx parcel build",
+    "postinstall": "npm run prisma:generate && npx parcel build-lib",
     "prisma:generate": "npx prisma generate",
     "clean": "npx rimraf dist .parcel-cache",
-    "build-dev": "npm run clean && npm run prisma:generate && npx parcel build",
+    "build-lib": "npm run clean && npm run prisma:generate && npx parcel build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "post-publish": "echo \"+++-----++++TESTING LERNA POST-PUBLISH SCRIPTS (PRISMA-CLIENT project)++++-----++++\""
   },
