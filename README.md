@@ -1,6 +1,6 @@
 # PrismaJS with TypeScript + MongoDB + Lerna + AWS Lambda + Serverless
 
-![project build success status](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/actions/workflows/node.js.yml/badge.svg)
+[![project build success status](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/actions/workflows/node.js.yml/badge.svg)](https://github.com/artem-korolev/prismajs-mongodb-graphql-aws-lambda-starter-kit/actions)
 
 Starter kit for quick start with Typescript, Lerna, GraphQL and MongoDB locally
 and deploy to AWS Lambda + MongoDB Shared Cloud using GitHub Actions.
