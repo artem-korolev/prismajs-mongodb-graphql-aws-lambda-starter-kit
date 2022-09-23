@@ -12,6 +12,28 @@
 Starter kit for quick start with Typescript, Lerna, GraphQL and MongoDB locally
 and deploy to AWS Lambda + MongoDB Shared Cloud using GitHub Actions.
 
+## Demo
+
+Checkout GraphQL with Playground deployed to AWS Lambda with MongoDB Cloud Shared:
+
+[https://rb7zk6fsce.execute-api.us-east-1.amazonaws.com/dev/graphql](https://rb7zk6fsce.execute-api.us-east-1.amazonaws.com/dev/graphql)
+
+Query example:
+
+```graphql
+# Write your query or mutation here
+query {
+  users {
+    id
+    email
+    name
+    __typename
+  }
+}
+```
+
+🤘💪🤣😍❤
+
 ## Technologies used
 
 - Prisma - Next-generation Node.js and TypeScript ORM with GraphQL interface
@@ -159,26 +181,6 @@ npx serverless deploy
 
 ```bash
 npx serverless
-```
-
-## Demo
-
-Checkout GraphQL with Playground deployed to AWS Lambda with MongoDB Cloud Shared:
-
-[https://rb7zk6fsce.execute-api.us-east-1.amazonaws.com/dev/graphql](https://rb7zk6fsce.execute-api.us-east-1.amazonaws.com/dev/graphql)
-
-Query example:
-
-```graphql
-# Write your query or mutation here
-query {
-  users {
-    id
-    email
-    name
-    __typename
-  }
-}
 ```
 
 🤘💪🤣😍❤
