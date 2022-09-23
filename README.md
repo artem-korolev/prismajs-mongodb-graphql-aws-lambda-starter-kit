@@ -55,25 +55,34 @@ query {
 [![AWS Lambda](doc/logos/aws-lambda.png)](https://aws.amazon.com/lambda/)
 
 - Prisma - Next-generation Node.js and TypeScript ORM with GraphQL interface
+
   [https://www.prisma.io/](https://www.prisma.io/)
 
 - MongoDB - JSON document database
+
   [https://www.mongodb.com/](https://www.mongodb.com/)
 
 - Typescript - JavaScript with syntax for types
+
   [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
 
 - Lerna - A tool for managing JavaScript projects with multiple packages
+
   [https://lerna.js.org/](https://lerna.js.org/)
 
 - GraphQL - query language for APIs and a runtime for fulfilling those queries with your existing data
+
   [https://graphql.org/](https://graphql.org/)
 
 - Parcel.js - Parcel is a zero configuration build tool for the web. It combines a great out-of-the-box development experience with a scalable architecture that can take your project from just getting started to massive production application
 
+  [https://parceljs.org/](https://parceljs.org/)
+
 - Docker Compose - tool for defining and running multi-container Docker
   applications. **Its used in this project to run MongoDB database in dev environment locally. Prisma Client requires Mongo to run in replica
   mode, so standalone MondoDB Community Server is not enough**
+
+  [https://docs.docker.com/compose/](https://docs.docker.com/compose/)
 
 - GitHub Actions - makes it easy to automate all your software workflows,
   now with world-class CI/CD. Build, test, and deploy your code right from
