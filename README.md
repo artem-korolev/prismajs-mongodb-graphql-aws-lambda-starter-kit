@@ -1,13 +1,13 @@
 # PrismaJS with TypeScript + MongoDB + Lerna + AWS Lambda + Serverless
 
-![TypeScript](doc/logos/ts-logo.png)
-![Lerna](doc/logos/lerna.png)
-![GraphQL](doc/logos/graphql.png)
-![MongoDB](doc/logos/mongodb.png)
-![Prisma](doc/logos/prisma.png)
-![Parcel.js](doc/logos/parcel.png)
-![GitHub](doc/logos/github.jpeg)
-![AWS Lambda](doc/logos/aws-lambda.png)
+[![TypeScript](doc/logos/ts-logo.png)](https://www.typescriptlang.org/)
+[![Lerna](doc/logos/lerna.png)](https://lerna.js.org/)
+[![GraphQL](doc/logos/graphql.png)](https://graphql.org/)
+[![MongoDB](doc/logos/mongodb.png)](https://www.mongodb.com/)
+[![Prisma](doc/logos/prisma.png)](https://www.prisma.io/)
+[![Parcel.js](doc/logos/parcel.png)](https://parceljs.org/)
+[![GitHub](doc/logos/github.jpeg)](https://github.com/)
+[![AWS Lambda](doc/logos/aws-lambda.png)](https://aws.amazon.com/lambda/)
 
 Starter kit for quick start with Typescript, Lerna, GraphQL and MongoDB locally
 and deploy to AWS Lambda + MongoDB Shared Cloud using GitHub Actions.
