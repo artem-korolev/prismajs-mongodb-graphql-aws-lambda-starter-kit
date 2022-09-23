@@ -25,6 +25,22 @@ query {
 
 🤘💪🤣😍❤
 
+## Table of Contents
+
+* [Demo](#demo)
+* [Table of Contents](#table-of-contents)
+* [Technologies used](#technologies-used)
+* [Bootstrap lerna environment](#bootstrap-lerna-environment)
+* [Run project locally with MongoDB in Docker Compose](#run-project-locally-with-mongodb-in-docker-compose)
+  * [Start MongoDB with replica](#start-mongodb-with-replica)
+  * [Run whole project in serverless offline mode with live-reload for all packages](#run-whole-project-in-serverless-offline-mode-with-live-reload-for-all-packages)
+* [Build Prisma Client library](#build-prisma-client-library)
+* [Run sample code](#run-sample-code)
+* [Prisma Studio](#prisma-studio)
+* [MongoDB Cloud Shared (M0 clusters) configuration](#mongodb-cloud-shared-m0-clusters-configuration)
+* [Deploy to AWS Lambda](#deploy-to-aws-lambda)
+* [Connect project to Serverless Dashboard](#connect-project-to-serverless-dashboard)
+
 ## Technologies used
 
 [![TypeScript](doc/logos/ts-logo.png)](https://www.typescriptlang.org/)
