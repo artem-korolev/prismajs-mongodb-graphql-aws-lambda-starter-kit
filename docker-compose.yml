@@ -21,7 +21,7 @@ services:
 
   # Replica Set (required for Prisma Client)
   mongo:
-    build: ./mongodb_replica
+    build: ./data/mongodb_replica
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: prisma
