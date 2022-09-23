@@ -119,13 +119,13 @@ GraphQL Playground: [http://localhost:3000/dev/graphql](http://localhost:3000/de
 With Lerna (Manually):
 
 ```bash
-npx lerna run build-dev
+npx lerna run build-lib
 ```
 
 Or from inside **packages/prisma-client** package you can use it directly:
 
 ```bash
-npm run build-dev
+npm run build-lib
 ```
 
 or run in live-reload mode (Automatic):
