@@ -2,27 +2,11 @@
 
 Starter kit for quick start with Typescript, Lerna, GraphQL and MongoDB locally.
 
-## Technologies used
+If you are using this project as package under Lerna package manager,
+then follow instructions from [Top Level Documentation](../../README.md)
 
-- Prisma - Next-generation Node.js and TypeScript ORM with GraphQL interface
-  
-  [https://www.prisma.io/](https://www.prisma.io/)
-
-- MongoDB - JSON document database
-  
-  [https://www.mongodb.com/](https://www.mongodb.com/)
-
-- Typescript - JavaScript with syntax for types
-  
-  [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
-
-- GraphQL - query language for APIs and a runtime for fulfilling those queries with your existing data
-  
-  [https://graphql.org/](https://graphql.org/)
-
-- Docker Compose - tool for defining and running multi-container Docker
-  applications. **Its used in this project to run MongoDB database in dev environment locally. Prisma Client requires Mongo to run in replica
-  mode, so standalone MondoDB Community Server is not enough**
+Documentation bellow is relevant only for running this package alone as
+boilerplate for Prisma Client based projects.
 
 ## Bootstrap lerna environment
 
